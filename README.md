@@ -1,4 +1,4 @@
-# 📍 PINCODE Validator
+#  PINCODE Validator
 
 A Python-based PIN Code Validation System that verifies Indian PIN codes using a hierarchical address dataset. The application checks whether a given PIN code exists in the dataset and retrieves its corresponding location details, making it useful for address verification and postal information lookup.
 
@@ -12,18 +12,18 @@ This project demonstrates the use of Python for data processing, CSV file handli
 
 ---
 
-## ✨ Features
+##  Features
 
-- ✅ Validate Indian PIN codes
-- ✅ Search through a hierarchical address dataset
-- ✅ Display corresponding location details
-- ✅ Handle invalid or non-existent PIN codes gracefully
-- ✅ Simple and user-friendly Python implementation
-- ✅ Lightweight and easy to run
+-  Validate Indian PIN codes
+-  Search through a hierarchical address dataset
+-  Display corresponding location details
+-  Handle invalid or non-existent PIN codes gracefully
+-  Simple and user-friendly Python implementation
+-  Lightweight and easy to run
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 - Python 3.x
 - Pandas
@@ -31,7 +31,7 @@ This project demonstrates the use of Python for data processing, CSV file handli
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 PINCODE_validator/
@@ -43,7 +43,7 @@ PINCODE_validator/
 
 ---
 
-## 📊 Dataset Information
+##  Dataset Information
 
 The project uses the following dataset:
 
@@ -62,7 +62,7 @@ The dataset serves as the source for validating and retrieving address informati
 
 ---
 
-## ⚙️ Prerequisites
+##  Prerequisites
 
 Before running the project, ensure that you have:
 
@@ -84,7 +84,7 @@ python3 --version
 ---
  
 
-## ▶️ Running the Project
+## Running the Project
 
 Execute the Python file:
 
@@ -104,7 +104,7 @@ If the PIN code exists, the corresponding address details will be displayed.
 
 ---
 
-## 📌 Working
+##  Working
 
 1. Load the CSV dataset.
 2. Accept the PIN code as user input.
@@ -115,7 +115,7 @@ If the PIN code exists, the corresponding address details will be displayed.
 ---
 
 
-## 👥 Contributors
+##  Contributors
 
 - **Uttam Gupta**
 - **Zoya Pathan**
