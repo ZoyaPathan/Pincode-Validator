@@ -4,7 +4,7 @@ A Python-based PIN Code Validation System that verifies Indian PIN codes using a
 
 ---
 
-## 📖 Project Overview
+##  Project Overview
 
 The PINCODE Validator is designed to validate Indian postal PIN codes by searching through a structured CSV dataset containing hierarchical address information. The program allows users to input a PIN code and returns the associated address details if the PIN code exists.
 
