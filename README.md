@@ -1,29 +1,28 @@
-# 📍 PINCODE Validator
+#  PINCODE Validator
 
-A Python-based PIN Code Validation System that verifies Indian PIN codes using a hierarchical address dataset. The application checks whether a given PIN code exists in the dataset and retrieves its corresponding location details, making it useful for address verification and postal information lookup.
+The application allows users to upload an image containing an address or postal information. Using OCR, the system extracts the text, identifies the pincode, and compares it with a CSV-based database of valid addresses and corresponding pincodes. It then displays whether the detected pincode is valid and provides the associated address information when a match is found.
+---
+
+##  Project Overview
+
+The Pincode Validator Tool is a Python-based desktop application that leverages Optical Character Recognition (OCR) to automatically extract text from uploaded images, detect the pincode, and verify its authenticity using a structured database of addresses and pincodes. The application features an intuitive Tkinter-based graphical interface, making the validation process simple and user-friendly.
+
+This project demonstrates the practical integration of OCR, GUI development, and database connectivity to automate address verification and minimize manual errors in pincode validation.
 
 ---
 
-## 📖 Project Overview
+##  Features
 
-The PINCODE Validator is designed to validate Indian postal PIN codes by searching through a structured CSV dataset containing hierarchical address information. The program allows users to input a PIN code and returns the associated address details if the PIN code exists.
-
-This project demonstrates the use of Python for data processing, CSV file handling, and efficient searching of structured datasets.
-
----
-
-## ✨ Features
-
-- ✅ Validate Indian PIN codes
-- ✅ Search through a hierarchical address dataset
-- ✅ Display corresponding location details
-- ✅ Handle invalid or non-existent PIN codes gracefully
-- ✅ Simple and user-friendly Python implementation
-- ✅ Lightweight and easy to run
+-  Validate Indian PIN codes
+-  Search through a hierarchical address dataset
+-  Display corresponding location details
+-  Handle invalid or non-existent PIN codes gracefully
+-  Simple and user-friendly Python implementation
+-  Lightweight and easy to run
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 - Python 3.x
 - Pandas
@@ -31,7 +30,7 @@ This project demonstrates the use of Python for data processing, CSV file handli
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 PINCODE_validator/
@@ -43,7 +42,7 @@ PINCODE_validator/
 
 ---
 
-## 📊 Dataset Information
+##  Dataset Information
 
 The project uses the following dataset:
 
@@ -62,7 +61,7 @@ The dataset serves as the source for validating and retrieving address informati
 
 ---
 
-## ⚙️ Prerequisites
+##  Prerequisites
 
 Before running the project, ensure that you have:
 
@@ -84,7 +83,7 @@ python3 --version
 ---
  
 
-## ▶️ Running the Project
+## Running the Project
 
 Execute the Python file:
 
@@ -104,7 +103,7 @@ If the PIN code exists, the corresponding address details will be displayed.
 
 ---
 
-## 📌 Working
+##  Working
 
 1. Load the CSV dataset.
 2. Accept the PIN code as user input.
@@ -115,7 +114,7 @@ If the PIN code exists, the corresponding address details will be displayed.
 ---
 
 
-## 👥 Contributors
+##  Contributors
 
 - **Uttam Gupta**
 - **Zoya Pathan**
